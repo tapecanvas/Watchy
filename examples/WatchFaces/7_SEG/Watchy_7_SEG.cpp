@@ -105,7 +105,7 @@ void Watchy7SEG::drawWeather(){
     display.getTextBounds(String(temperature), 100, 150, &x1, &y1, &w, &h);
     display.setCursor(155 - w, 150);
     display.println(temperature);
-    display.drawBitmap(165, 110, strcmp(TEMP_UNIT, "metric") == 0 ? celsius : fahrenheit, 26, 20, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+    display.drawBitmap(165, 110, strcmp(TEMP_UNIT, "imperial") == 1 ? celsius : fahrenheit, 26, 20, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
     const unsigned char* weatherIcon;
 
     //https://openweathermap.org/weather-conditions
