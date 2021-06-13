@@ -25,10 +25,10 @@
 #define DISPLAY_WIDTH 200
 #define DISPLAY_HEIGHT 200
 //weather api
-#define CITY_NAME "CHATTANOOGA" //if your city name has a space, replace with '+'
+#define CITY_NAME "" //if your city name has a space, replace with '+'
 #define COUNTRY_CODE "US"
-#define OPENWEATHERMAP_APIKEY "d7ac1fbc73b2272965644de1a43c5241" //use your own API key :)
-#define OPENWEATHERMAP_URL "http://api.openweathermap.org/data/2.5/weather?q={chattanooga}&appid={d7ac1fbc73b2272965644de1a43c5241}"
+#define OPENWEATHERMAP_APIKEY "" //use your own API key :)
+#define OPENWEATHERMAP_URL ""
 #define TEMP_UNIT "imperial" //use "imperial" for Fahrenheit"
 #define WEATHER_UPDATE_INTERVAL 30 //minutes
 //wifi
